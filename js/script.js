@@ -13,7 +13,6 @@ button.addEventListener('click', function () {
     for (let i = 1; i <= 100; i++) {
         //3.1.1 - creo l'elemento div all'interno della grid
         square = grid.appendChild(document.createElement('div'));
-        console.log(square);
         //3.1.2 - assegno classe square al div creato
         square.className = 'square';
         //3.1.3 - visualizzo il numero dell'iterazione nel suo square
@@ -25,7 +24,6 @@ button.addEventListener('click', function () {
             //3.1.4.2 - visualizzo numero dello suqare cliccato in console log
             console.log(i);
         }) 
-        
     }
-      
+
 })
