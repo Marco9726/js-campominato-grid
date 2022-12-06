@@ -10,5 +10,6 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
     //3.1 - creo ciclo for per generare 100 square
         //3.1.1 - creo l'elemento div all'interno della grid
         //3.1.2 - assegno classe square al div creato
-//4 - addEventListner al click dello square
-    //4.1 - assegno classe bg-blue allo square
+            //3.1.3 - addEventListner al click dello square
+                //3.1.3.1 - assegno classe bg-blue allo square
+                //3.1.3.2 - visualizzo numero dello suqare cliccato in console log

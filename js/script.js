@@ -15,11 +15,12 @@ button.addEventListener('click', function () {
         console.log(square);
         //3.1.2 - assegno classe square al div creato
         square.className = 'square';
+        //3.1.3 - addEventListner al click dello square
+        square.addEventListener('click', function() {
+            //3.1.3.1- assegno classe bg-blue allo square
+            this.classList.add('bg-blue')
+            //3.1.3.2 - visualizzo numero dello suqare cliccato in console log
+            console.log(i);
+        }) 
     }
 })
-//4 - addEventListner al click dello square
-square.addEventListener('click', function() {
-    //4.1 - assegno classe bg-blue allo square
-    square.classList.add('bg-blue')
-
-}) 
