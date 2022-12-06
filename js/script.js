@@ -9,6 +9,7 @@
 //3 - addEventListner al click del bottone
 button.addEventListener('click', function () {
     //3.1 - creo ciclo for per generare 100 square
+    grid.innerHTML = "";
     for (let i = 1; i <= 100; i++) {
         //3.1.1 - creo l'elemento div all'interno della grid
         square = grid.appendChild(document.createElement('div'));
@@ -24,6 +25,7 @@ button.addEventListener('click', function () {
             //3.1.4.2 - visualizzo numero dello suqare cliccato in console log
             console.log(i);
         }) 
+        
     }
       
 })
