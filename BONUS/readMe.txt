@@ -28,4 +28,13 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
             //
                 //
                 //
+//6 - addEventListner al click di hard
+    //5.1 - creo ciclo for per generare 49 square
+        //
+        //
+        //
+            //
+                //
+                //
+
 

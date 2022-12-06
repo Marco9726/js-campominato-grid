@@ -56,3 +56,13 @@ html body{
     align-items: center;
     color: rgb(57, 123, 229);
 }
+
+.square-hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(57, 123, 229);
+}
