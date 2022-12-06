@@ -7,3 +7,5 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
     //2.2 - creo costante collegata alla grid
 //3 - addEventListner al click del bottone
     //3.1 - visualizzo il container 
+    //3.2 - creo elemento div all'intero della grid 
+    //3.3 - assegno classe square al div creato

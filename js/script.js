@@ -8,7 +8,10 @@
 button.addEventListener('click', function () {
     //3.1 - visualizzo il container 
     container.className = 'd-block';
+    //3.2 - creo elemento div all'intero della grid 
     const square = grid.appendChild(document.createElement('div'));
     console.log(square);
+    //3.3 - assegno classe square al div creato
+    square.className = 'square';
 
 })
