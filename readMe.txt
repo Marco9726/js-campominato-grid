@@ -5,7 +5,10 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
 //2 - creo container e grid nell'html
     //2.1 - creo costante collegata al container
     //2.2 - creo costante collegata alla grid
+    //2.3 - creo variabile square
 //3 - addEventListner al click del bottone
     //3.1 - creo ciclo for per generare 100 square
         //3.1.1 - creo l'elemento div all'interno della grid
         //3.1.2 - assegno classe square al div creato
+//4 - addEventListner al click dello square
+    //4.1 - assegno classe bg-blue allo square
