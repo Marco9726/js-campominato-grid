@@ -4,5 +4,6 @@ L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni 
     //1.1 - creo costante collegata al bottone
 //2 - creo container e grid nell'html
     //2.1 - creo costante collegata al container
+    //2.2 - creo costante collegata alla grid
 //3 - addEventListner al click del bottone
     //3.1 - visualizzo il container 
