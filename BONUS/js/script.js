@@ -20,7 +20,7 @@ easy.addEventListener('click', function () {
         //3.1.4 - addEventListner al click dello square
         square.addEventListener('click', function() {
             //3.1.4.1- assegno classe bg-blue allo square
-            this.classList.add('bg-blue')
+            this.classList.toggle('bg-blue')
             //3.1.4.2 - visualizzo numero dello suqare cliccato in console log
             console.log(i);
         }) 
@@ -46,7 +46,7 @@ normal.addEventListener('click', function () {
         //5.1.4 - addEventListner al click dello square
         square.addEventListener('click', function() {
             //5.1.4.1- assegno classe bg-blue allo square
-            this.classList.add('bg-blue')
+            this.classList.toggle('bg-blue')
             //5.1.4.2 - visualizzo numero dello suqare cliccato in console log
             console.log(i);
         }) 
@@ -67,7 +67,7 @@ hard.addEventListener('click', function () {
         //6.1.4 - addEventListner al click dello square
         square.addEventListener('click', function() {
             //6.1.4.1- assegno classe bg-blue allo square
-            this.classList.add('bg-blue')
+            this.classList.toggle('bg-blue')
             //6.1.4.2 - visualizzo numero dello suqare cliccato in console log
             console.log(i);
         }) 
